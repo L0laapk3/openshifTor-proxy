@@ -15,10 +15,10 @@ Name: tor-proxy
 Endpoints:
 - Private-IP-Name: IP
   Private-Port-Name: PROXY_PORT
-  Private-Port: 28280
+  Private-Port: 9050
 - Private-IP-Name: IP
   Private-Port-Name: CONTROL_PORT
-  Private-Port: 28281
+  Private-Port: 9051
 Version: '0.2.6.10'
 Scaling:
   Max: -1
