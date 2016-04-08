@@ -13,10 +13,10 @@ Versions:
 Cartridge-Short-Name: TOR
 Name: tor-proxy
 Endpoints:
-- Private-Ip-Name: Tor proxy ip
+- Private-IP-Name: Tor proxy ip
   Private-Port-Name: Tor proxy port
   Private-Port: 9050
-- Private-Ip-Name: Tor config ip
+- Private-IP-Name: Tor config ip
   Private-Port-Name: Tor config port
   Private-Port: 9051
 Version: '0.2.6.10'
