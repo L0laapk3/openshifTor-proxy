@@ -1,8 +1,8 @@
 SocksPort <%= ENV['OPENSHIFT_TOR_PROXY_PORT'] %>
-SocksListenAddress <%= ENV['OPENSHIFT_INTERNAL_IP'] %>
+SocksBindAddress <%= ENV['OPENSHIFT_TOR_IP'] %>
 
 ControlPort <%= ENV['OPENSHIFT_TOR_CONTROL_PORT'] %>
-ControlListenAddress <%= ENV['OPENSHIFT_INTERNAL_IP'] %>
+ControlBindAddress <%= ENV['OPENSHIFT_TOR_IP'] %>
 
 Log notice file <%= ENV['OPENSHIFT_LOG_DIR'] %>tor.log
 RunAsDaemon 1
