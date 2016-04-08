@@ -23,7 +23,7 @@ Version: '0.2.6.10'
 Scaling:
   Max: -1
   Min: 1
-Cartridge-Vendor: L0laapk3
+Cartridge-Vendor: l0laapk3
 Provides:
 - tor - 0.2.4.26
 - tor - 0.2.4.27
