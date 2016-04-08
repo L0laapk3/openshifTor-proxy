@@ -10,7 +10,7 @@ Versions:
 - '0.2.5.12'
 - '0.2.6.9'
 - '0.2.6.10'
-Cartridge-Short-Name: TORPROXY
+Cartridge-Short-Name: TOR
 Name: tor-proxy
 Endpoints:
 - Private-Ip-Name: Tor proxy ip
