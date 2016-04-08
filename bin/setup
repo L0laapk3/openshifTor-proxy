@@ -61,7 +61,7 @@ function main() {
     set_env_var TOR_VERSION "${version}" "${OPENSHIFT_TOR_DIR}env"
 
     client_result "Environment set to use Tor ${version}."
-    client_result "Once running, a tor sock5 proxy will be available at port 9050."
+    client_result "Once running, a tor SOCKS5 proxy will be available at port $OPENSHIFT_TOR_PROXY_PORT."
     client_result "Be patient! Building tor takes a while."
 }
 

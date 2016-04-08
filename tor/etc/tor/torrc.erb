@@ -1,5 +1,5 @@
-SocksPort 9050
-ControlPort 9051
+SocksPort <%= ENV['OPENSHIFT_TOR_PROXY_PORT'] %>
+ControlPort <%= ENV['OPENSHIFT_TOR_CONTROL_PORT'] %>
 
 Log notice file <%= ENV['OPENSHIFT_LOG_DIR'] %>tor.log
 RunAsDaemon 1
