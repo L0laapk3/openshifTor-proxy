@@ -1,5 +1,5 @@
 License-Url: https://gitweb.torproject.org/tor.git/plain/LICENSE
-Source-Url: https://github.com/xkollar/tor-openshift/archive/master.zip
+Source-Url: https://github.com/L0laapk3/tor-openshift/archive/master.zip
 Categories:
 - embedded
 - tor
@@ -10,13 +10,17 @@ Versions:
 - '0.2.5.12'
 - '0.2.6.9'
 - '0.2.6.10'
-Cartridge-Short-Name: TOR
-Name: tor
+Cartridge-Short-Name: TOR-PROXY
+Name: tor-proxy
+Endpoints:
+- Private-Ip-Name: Tor proxy ip
+  Private-Port-Name: Tor proxy port
+  Private-Port: 20596
 Version: '0.2.6.10'
 Scaling:
   Max: -1
   Min: 1
-Cartridge-Vendor: mkollar
+Cartridge-Vendor: L0laapk3
 Provides:
 - tor - 0.2.4.26
 - tor - 0.2.4.27
@@ -25,4 +29,4 @@ Provides:
 - tor - 0.2.6.9
 - tor - 0.2.6.10
 License: Tor's License
-Cartridge-Version: '0.0.6'
+Cartridge-Version: '0.0.1'

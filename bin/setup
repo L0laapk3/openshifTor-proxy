@@ -60,9 +60,9 @@ function main() {
 
     set_env_var TOR_VERSION "${version}" "${OPENSHIFT_TOR_DIR}env"
 
-    local hostname=$( generate_privkey_and_hostname "${OPENSHIFT_TOR_DIR}tor/hidden_service" )
     client_result "Environment set to use Tor ${version}."
-    client_result "Once running, you will be able to locate it at $hostname"
+    client_result "Once running, a tor sock5 proxy will be available at port 20596."
+    client_result "Be patient! Building tor takes a while."
 }
 
 main "$@"
