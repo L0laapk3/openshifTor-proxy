@@ -1,3 +1,12 @@
+WARNING
+===========
+DO NOT USE THIS ON THE OPENSHIFT PLATFORM. IT GOT MY APPLICATION BANNED.
+also, the git is unfinished and I do not plan to finish it.
+
+
+
+
+
 OpenShifTor
 ===========
 
